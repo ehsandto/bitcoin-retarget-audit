@@ -14,4 +14,4 @@ genvm-lint check contracts/BitcoinRetargetAudit.py
 python -m pytest tests -q
 ```
 
-StudioNet deployment pending.
+[StudioNet contract](https://explorer-studio.genlayer.com/address/0xb18A7d381B10c5982DFF5538aCe6B8c5E1b56bD4) · [Live proofs](LIVE_PROOFS.md) · [Submission text](SUBMISSION.md)

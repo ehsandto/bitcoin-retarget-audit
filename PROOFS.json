@@ -1,0 +1,258 @@
+{
+  "network": "StudioNet",
+  "source_commit": "5342141f1b73bb760c78cc98e306c9514565f86f",
+  "transactions": [
+    {
+      "step": "deploy",
+      "args": [
+        "deploy",
+        "--contract",
+        "contracts/BitcoinRetargetAudit.py"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1e6",
+      "hash": "0x1a3d586b14219372e366a6f79d9992f8cfaa423f082f1fb0f17593863241b037",
+      "receipt": {
+        "hash": "0x1a3d586b14219372e366a6f79d9992f8cfaa423f082f1fb0f17593863241b037",
+        "address": "0xb18A7d381B10c5982DFF5538aCe6B8c5E1b56bD4",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "capture-840672",
+      "args": [
+        "write",
+        "0xb18A7d381B10c5982DFF5538aCe6B8c5E1b56bD4",
+        "capture",
+        "--args",
+        "840672"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1e7",
+      "hash": "0xb1d201ffec9d9a2291cf77c1afea63ac4fbbe3cd8ab4435a4da8801626294257",
+      "receipt": {
+        "hash": "0xb1d201ffec9d9a2291cf77c1afea63ac4fbbe3cd8ab4435a4da8801626294257",
+        "address": "0xb18A7d381B10c5982DFF5538aCe6B8c5E1b56bD4",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "capture-842688",
+      "args": [
+        "write",
+        "0xb18A7d381B10c5982DFF5538aCe6B8c5E1b56bD4",
+        "capture",
+        "--args",
+        "842688"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1e8",
+      "hash": "0xa33d716dd6a4b3a8d93c1e9bc61042dd2fe1e54892f8a634f79d8da58f5fdbaf",
+      "receipt": {
+        "hash": "0xa33d716dd6a4b3a8d93c1e9bc61042dd2fe1e54892f8a634f79d8da58f5fdbaf",
+        "address": "0xb18A7d381B10c5982DFF5538aCe6B8c5E1b56bD4",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    }
+  ],
+  "address": "0xb18A7d381B10c5982DFF5538aCe6B8c5E1b56bD4",
+  "source": {
+    "address": "0xb18A7d381B10c5982DFF5538aCe6B8c5E1b56bD4",
+    "source_match": true,
+    "sha256": "7578a2c0c53430714015ebc3de375d98bda4b2775e24c47f08c8531a689f6bab"
+  },
+  "audits": {
+    "840672": {
+      "audit": {
+        "boundary": 840672,
+        "elapsed_seconds": 1186047,
+        "expected_bits": 386085339,
+        "expected_target_hex": "0000000000000000000331db0000000000000000000000000000000000000000",
+        "headers": [
+          {
+            "bits": 386089497,
+            "hash": "00000000000000000001f2fa38c036edc385487c0226fbffc8bfe72c5a655899",
+            "parent": "000000000000000000023aeab989430385cf0c085e9e25580d1813ea3daee028",
+            "pow_valid": true,
+            "raw": "0000812e28e0ae3dea13180d58259e5e080ccf85034389b9ea3a020000000000000000001ad95d81e9bb6eebe2668c0826ae14cde2b19ec9d5dca9bc34369f1db566ad25ed011766194203175f4c38b0",
+            "timestamp": 1712783853
+          },
+          {
+            "bits": 386089497,
+            "hash": "00000000000000000002bf1e60049e942ac34b728911adda77d704cc8401e84b",
+            "parent": "00000000000000000002bfb80f999209eb941054e1b8c4eb53ced2f57a328ff2",
+            "pow_valid": true,
+            "raw": "00007020f28f327af5d2ce53ebc4b8e1541094eb0992990fb8bf020000000000000000004a2acb77ce32fa5ed2fee962efcd3c3e2bb642d5e19859b63b6657a76dba00cbec1a296619420317072116d8",
+            "timestamp": 1713969900
+          },
+          {
+            "bits": 386085339,
+            "hash": "00000000000000000001d2cbad2209f51143679b6797aef393a45e82eb88a9ae",
+            "parent": "00000000000000000002bf1e60049e942ac34b728911adda77d704cc8401e84b",
+            "pow_valid": true,
+            "raw": "04e000204be80184cc04d777daad1189724bc32a949e04601ebf0200000000000000000078ce8a1195d00b58c530046ec369868aa4cc856bf139ef2636192ced886ed412881c2966db3103172b1d1f06",
+            "timestamp": 1713970312
+          }
+        ],
+        "heights": [
+          838656,
+          840671,
+          840672
+        ],
+        "id": "d6a3e84f268f63c64336b47257761549c84e197e449dfde05ca354c95f35e8bc",
+        "previous_bits": 386089497,
+        "sources": [
+          "https://mempool.space/api",
+          "https://blockstream.info/api"
+        ],
+        "used_seconds": 1186047,
+        "work_per_block": "378410393580124934176862"
+      },
+      "cases": {
+        "observed": {
+          "audit_id": "d6a3e84f268f63c64336b47257761549c84e197e449dfde05ca354c95f35e8bc",
+          "checks": {
+            "parent": true,
+            "retarget": true,
+            "work": true
+          },
+          "header_hash": "00000000000000000001d2cbad2209f51143679b6797aef393a45e82eb88a9ae",
+          "height": 840672,
+          "passes": true
+        },
+        "altered_nonce": {
+          "audit_id": "d6a3e84f268f63c64336b47257761549c84e197e449dfde05ca354c95f35e8bc",
+          "checks": {
+            "parent": true,
+            "retarget": true,
+            "work": false
+          },
+          "header_hash": "8eaa35a36cdaa616025e9b7230d9f49ed13ce6bb48e3a19eb5306c0f5ef74e9f",
+          "height": 840672,
+          "passes": false
+        },
+        "wrong_parent": {
+          "audit_id": "d6a3e84f268f63c64336b47257761549c84e197e449dfde05ca354c95f35e8bc",
+          "checks": {
+            "parent": false,
+            "retarget": false,
+            "work": true
+          },
+          "header_hash": "00000000000000000002bf1e60049e942ac34b728911adda77d704cc8401e84b",
+          "height": 840672,
+          "passes": false
+        }
+      }
+    },
+    "842688": {
+      "audit": {
+        "boundary": 842688,
+        "elapsed_seconds": 1281700,
+        "expected_bits": 386097818,
+        "expected_target_hex": "00000000000000000003629a0000000000000000000000000000000000000000",
+        "headers": [
+          {
+            "bits": 386085339,
+            "hash": "00000000000000000001d2cbad2209f51143679b6797aef393a45e82eb88a9ae",
+            "parent": "00000000000000000002bf1e60049e942ac34b728911adda77d704cc8401e84b",
+            "pow_valid": true,
+            "raw": "04e000204be80184cc04d777daad1189724bc32a949e04601ebf0200000000000000000078ce8a1195d00b58c530046ec369868aa4cc856bf139ef2636192ced886ed412881c2966db3103172b1d1f06",
+            "timestamp": 1713970312
+          },
+          {
+            "bits": 386085339,
+            "hash": "000000000000000000021342b77cc83903ed85341a53b9ec571fb7b0a503124c",
+            "parent": "000000000000000000022b6ef624c3db75884548c17185242060e30fa3b0b004",
+            "pow_valid": true,
+            "raw": "04e0bf2204b0b0a30fe36020248571c148458875dbc324f66e2b0200000000000000000029c51e5aba6703bcd19d20276adb647cfe4f5883b0f4ea6b9171bd4629e7362d2cab3c66db310317c41c6466",
+            "timestamp": 1715252012
+          },
+          {
+            "bits": 386097818,
+            "hash": "000000000000000000026b90d09b5e4fba615eadfc4ce2a19f6a68c9c18d4a2e",
+            "parent": "000000000000000000021342b77cc83903ed85341a53b9ec571fb7b0a503124c",
+            "pow_valid": true,
+            "raw": "00e0ff274c1203a5b0b71f57ecb9531a3485ed0339c87cb742130200000000000000000062b1722003bc3159639f60e540d79fb62a3939a6df0f398fe7976608f78770d9beac3c669a620317a36e82cc",
+            "timestamp": 1715252414
+          }
+        ],
+        "heights": [
+          840672,
+          842687,
+          842688
+        ],
+        "id": "7abd0f8e58e5741848e6cd6a58e5d8cc8693a5b2fea924a37779cc9128c090b1",
+        "previous_bits": 386085339,
+        "sources": [
+          "https://mempool.space/api",
+          "https://blockstream.info/api"
+        ],
+        "used_seconds": 1281700,
+        "work_per_block": "357124915547731970221068"
+      },
+      "cases": {
+        "observed": {
+          "audit_id": "7abd0f8e58e5741848e6cd6a58e5d8cc8693a5b2fea924a37779cc9128c090b1",
+          "checks": {
+            "parent": true,
+            "retarget": true,
+            "work": true
+          },
+          "header_hash": "000000000000000000026b90d09b5e4fba615eadfc4ce2a19f6a68c9c18d4a2e",
+          "height": 842688,
+          "passes": true
+        },
+        "altered_nonce": {
+          "audit_id": "7abd0f8e58e5741848e6cd6a58e5d8cc8693a5b2fea924a37779cc9128c090b1",
+          "checks": {
+            "parent": true,
+            "retarget": true,
+            "work": false
+          },
+          "header_hash": "a852bb71fe2e7b30cb9dfc617e4745ecafe0d01f0c962ced75d0c8a7c210ba80",
+          "height": 842688,
+          "passes": false
+        },
+        "wrong_parent": {
+          "audit_id": "7abd0f8e58e5741848e6cd6a58e5d8cc8693a5b2fea924a37779cc9128c090b1",
+          "checks": {
+            "parent": false,
+            "retarget": false,
+            "work": true
+          },
+          "header_hash": "000000000000000000021342b77cc83903ed85341a53b9ec571fb7b0a503124c",
+          "height": 842688,
+          "passes": false
+        }
+      }
+    }
+  },
+  "verified": true
+}
